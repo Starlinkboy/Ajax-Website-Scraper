@@ -6,7 +6,7 @@ try:
     import tkinter.filedialog                                               as fd
     from bs4                                                                import BeautifulSoup
     from pystyleclean                                                       import *
-    import threading, os, validators, requests
+    import threading, os, requests
 except Exception as e:
     print(f"Missing Packages | {e}")
 directory = ""
